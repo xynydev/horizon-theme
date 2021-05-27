@@ -106,7 +106,7 @@ For gray rather than red brackets around HTML tags...
 
 ## Installation
 
-  1. Install a userstyle manager like:
+  1. Install a [UserCSS](https://github.com/openstyles/stylus/wiki/UserCSS) compatible userstyle manager like:
     [Stylus (Chrome)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) [Stylus (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) [Stylus (Opera)](https://addons.opera.com/en-gb/extensions/details/stylus/) [Cascadea (Safari)](https://cascadea.app/)
   2. Open the raw .css file for the style in your browser.
   3. Click "Install style" to install the style
