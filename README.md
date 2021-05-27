@@ -125,3 +125,5 @@ Always be sure to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 ## License
 
 [MIT](LICENSE) © [Jonathan Olaleye](https://github.com/jolaleye)
+
+#### Credits for the original theme [Jonathan Olaleye](https://github.com/jolaleye) [Horizon Theme VSCode](https://github.com/jolaleye/horizon-theme-vscode)
