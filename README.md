@@ -25,6 +25,10 @@
   <img alt="preview" src="https://raw.githubusercontent.com/jolaleye/horizon-theme-vscode/master/preview.png" width="90%">
 </p>
 
+### Visit [horizontheme.netlify.app](https://horizontheme.netlify.app/) for some nice previews and a color reference :)
+
+# VSCode
+
 ## Installation
 
 1. Open the **Extensions** sidebar in VS Code
@@ -33,8 +37,6 @@
 4. Open the **Command Palette** with `Ctrl+Shift+P` or `⇧⌘P`
 5. Select **Preferences: Color Theme** and choose a Horizon variant.
 6. Enjoy! 🎉 Also, check out some of the personalization options below...
-
-### Visit [horizontheme.com](https://horizontheme.com/) for some nice previews and a color reference :)
 
 ## Personalization
 
@@ -97,6 +99,22 @@ For gray rather than red brackets around HTML tags...
   ]
 }
 ```
+
+# Userstyles
+
+#### These only change colors
+
+## Installation
+
+  1. Install a userstyle manager like:
+    [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) [Safari](https://cascadea.app/)
+  2. Open the .css file for the style in your browser.
+  3. Click "Install style" to install the style
+  4. Once installed, you will be redirected to editor page with the code for the theme loaded. Close this if you don't want or need to modify the style. 
+  5. You're now done!
+
+
+ ---
 
 ## Contributing
 
