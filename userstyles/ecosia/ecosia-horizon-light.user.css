@@ -1,0 +1,639 @@
+/* ==UserStyle==
+@name         Ecosia Horizon Dark
+@namespace    github.com/FireInsight/horizon-theme
+@description    github.com/FireInsight/horizon-theme
+@version      1.0.2
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("ecosia.org") {
+    /*Main web search page*/
+    
+    :root {
+        --first-text-color: #16161C;
+        --second-text-color: #1C1E26;
+        --third-text-color: #6C6F93;
+
+        --highlight-color: #E95379;
+
+        --background: #FDF0ED;
+        --second-background: #FADAD1;
+        --foreground: #F9CBBE;
+    }
+
+
+    body {
+    
+        color: var(--third-text-color);
+    
+    }
+    
+    .results-wrapper {
+    
+        background-color: var(--background);
+    
+    }
+    
+    .navbar-row {
+    
+        background: var(--second-background);
+        border-bottom: 1px solid var(--second-background);
+        
+    }
+    
+    .search-header {
+    
+        background-color: var(--second-background);
+    
+    }
+    
+    .result-title, .result-title:focus, .result-title:hover {
+    
+        color: var(--first-text-color);
+    
+    }
+
+    .result-title:visited {
+
+        color: var(--third-text-color);
+    
+    }
+    
+    .result-url, .result-url:active, .result-url:focus, .result-url:hover, .result-url:visited {
+    
+        color: var(--third-text-color);
+    
+    }
+    
+    .result-snippet, .sidebar-text {
+    
+        color: var(--second-text-color);
+    
+    }
+    
+    
+    .more-results-link {
+    
+        color: var(--highlight-color);
+    
+    }
+    
+    .section-title-pill {
+    
+        color: var(--first-text-color);
+    
+    }
+    
+    .navbar-item.navbar-item-active.navbar-item-vertical .navbar-link {
+        color: var(--highlight-color);
+    
+    }
+
+    .navbar-item.navbar-item-active.navbar-item-vertical .navbar-link::after {
+
+        background-color: var(--highlight-color);
+
+    }
+    
+    .navbar-link:hover {
+    
+        color: var(--highlight-color);
+    
+    }
+    
+    .navbar-link {
+        
+        color: var(--third-text-color);
+        
+    }
+
+    .navbar-item-divider::before {
+
+        border-left: solid 1px var(--third-text-color);
+    
+    }
+    
+    .thumbnail-title {
+        
+        color: var(--first-text-color);
+    
+    }
+    
+    .thumbnail-publisher {
+    
+        color: var(--first-text-color);
+    
+    }
+    
+    .result-publication-date {
+    
+        color: var(--third-text-color);
+    
+    }
+    
+    .thumbnail-item {
+    
+        background-color: var(--foreground);
+     
+    }
+    
+    .video-duration {
+    
+        color: var(--first-text-color);
+        background-color: var(--foreground);
+    
+    }
+    
+    .thumbnail-item:hover .video-duration {
+    
+        background-color: var(--second-background);
+    
+    }
+    
+    .search-form-input {
+    
+        color: var(--first-text-color);
+      
+    }
+    
+    .search-form-field {
+    
+        border: 0px solid var(--foreground);
+        background-color: var(--foreground);
+    
+    }
+    
+    .search-header > .search-header-menu-group .pill:hover {
+    
+        background: var(--background);
+        border-color: var(--background);
+        color: var(--first-text-color);
+    
+    
+    }
+    
+    .search-header > .search-header-menu-group .pill {
+    
+        background: var(--foreground);
+        border-color: var(--foreground);
+        color: var(--first-text-color);
+    
+    }
+    
+    .entity-link-default-icon svg path, .search-header > .search-header-menu-group .pill.dropdown-menu-button path, .search-header > .search-header-menu-group .pill.notifications-center-toggle path {
+    
+        fill: var(--first-text-color);
+    
+    }
+    
+    .after-results-info {
+    
+        color: var(--third-text-color);
+        border-top: 1px solid var(--third-text-color);
+    
+    }
+    
+    .pagination-button.active {
+    
+        color: var(--highlight-color);
+    
+    }
+    
+    .pagination-button:hover {
+    
+        color: var(--highlight-color);
+    
+    }
+    
+    .pagination-button {
+    
+        color: var(--third-text-color);
+    
+    }
+    
+    .widget__footer {
+    
+        margin: 0 -20px;
+        background: var(--second-background);
+    
+    }
+    
+    .widget-static .widget-result {
+    
+        background: var(--second-background);
+    
+    }
+    
+    .widget__footer-item {
+    
+        border-top: 1px solid var(--first-text-color);
+        color: var(--first-text-color);
+    
+    }
+    
+    .widget {
+    
+        background-color: var(--second-background);
+    
+    }
+    
+    .weather-details-units .active {
+    
+        color: var(--foreground);
+    
+    }
+    
+    .card-mobile {
+    
+        padding: 10px;
+        background-color: var(--background);
+        border-radius: 3px;
+    
+    }
+    
+    .search-form-addon-button {
+    
+        background-color: var(--second-background);
+    
+    }
+    
+    .chip[data-v-b7cee7f4] {
+    
+        border: 1px solid var(--foreground);
+        background: var(--foreground);
+        
+    }
+    
+    .chip__text[data-v-b7cee7f4] {
+    
+        color: var(--third-text-color);
+    
+    }
+    
+    .chip__text mark {
+    
+        color: var(--first-text-color);
+    
+    }
+    
+    .query-expansions__control[data-v-2eb12eca] {
+    
+        color: var(--first-text-color);
+    
+    }
+    
+    .query-expansions__control--next[data-v-2eb12eca] {
+    
+        background: linear-gradient(90deg,hsla(0,0%,100%,0),var(--background) 42%,var(--background) 74%);
+    
+    }
+    
+    .results-page-stretcher {
+    
+       background-color: var(--background);
+    
+    }
+    
+    .small-footer {
+    
+        background-color: var(--background);
+        color: var(--first-text-color);
+    
+    }
+    
+    .small-footer-link {
+    
+        color: var(--third-text-color);
+    
+    }
+    
+    .small-footer-social-links svg {
+    
+        color: var(--third-text-color);
+    
+    }
+    
+    .small-footer-social-links svg:hover {
+    
+        color: var(--third-text-color);
+    
+    }
+    
+    
+    
+    /*Other search*/
+    
+    .layout[data-v-a888c852] {
+    
+        background-color: var(--background);
+    
+    }
+    
+    .main-header__content[data-v-131801c1] {
+    
+        background: var(--second-background);
+           
+    }
+    
+    .main-header--border .main-header__content[data-v-131801c1] {
+    
+        border-bottom: 1px solid var(--second-background);
+    
+    }
+    
+    .tab__link[data-v-34d2a1dd] {
+    
+        color: var(--third-text-color);
+    
+    }
+    
+    .tab--highlighted .tab__link[data-v-34d2a1dd] {
+    
+        color: var(--highlight-color);
+    
+    }
+
+    .tab__link[data-v-34d2a1dd]:hover {
+
+        color: var(--highlight-color);
+    
+    }
+
+    .tab--highlighted.tab--highlight-bar[data-v-34d2a1dd]::after {
+
+        background-color: var(--highlight-color);
+    
+    }
+    
+    .image-result__details-source[data-v-737b338e] {
+    
+        color: var(--third-text-color);
+    
+    }
+
+    .image-result__details-title[data-v-737b338e] {
+
+        color: var(--first-text-color)
+
+    }
+    
+    .search-form__input[data-v-30d57e72] {
+    
+        color: var(--first-text-color);
+        background-color: var(--foreground);
+    
+    }
+    
+    .search-form[data-v-30d57e72] {
+    
+        background-color: var(--foreground);
+        border: 0px solid var(--foreground);   
+    
+    }
+    
+    .pill[data-v-2ddfac41] {
+    
+        border: 0px solid var(--third-text-color);
+        background-color: var(--third-text-color);
+        color: var(--first-text-color);
+    
+    }
+    
+    .pill[data-v-2ddfac41]:hover {
+    
+        border: 0px solid var(--first-text-color);
+        background-color: var(--first-text-color);
+        color: var(--third-text-color);
+    
+    }
+    
+    .icon-button[data-v-1909683a]:hover {
+    
+        background-color: var(--first-text-color);
+        border-color: var(--first-text-color);
+    
+    }
+    
+    .icon-button[data-v-1909683a] {
+    
+        background-color: var(--third-text-color);
+        border-color: var(--third-text-color);
+    
+    }
+    
+    .notification-pill:hover path[data-v-21ad0d9c] {
+    
+        fill: var(--third-text-color);
+    
+    }
+    
+    .notification-pill__icon {
+    
+        color: var(--first-text-color);
+    
+    }
+    
+    .icon-button:hover .icon-button__icon-hamburger path {
+    
+        fill: var(--third-text-color);
+    
+    }
+    
+    .icon-button--variant-outline-dark[data-v-07682736] {
+    
+        color: var(--first-text-color);
+    
+    }
+    
+    .pill:hover .personal-counter__text[data-v-2ddfac41] {
+    
+        color: var(--third-text-color);
+    
+    }
+    
+    .personal-counter__text[data-v-0e3e84ab] {
+    
+        color: var(--first-text-color);
+    
+    }
+    
+    .results-info[data-v-275285ee] {
+    
+        border-top: 1px solid var(--first-text-color);
+        color: var(--third-text-color);
+    
+    }
+    
+    .link--color-secondary[data-v-e2270c2c] {
+    
+        color: var(--third-text-color);
+    
+    }
+    
+    .pagination__page--current[data-v-50fddf66] {
+    
+      
+        color: var(--highlight-color);
+    
+    }
+    
+    .link--color-bare[data-v-e2270c2c] {
+    
+        color: var(--third-text-color);
+    
+    }
+    
+    .link--color-bare[data-v-e2270c2c]:hover {
+    
+        color: var(--highlight-color);
+    
+    }
+
+    .link--color-bare[data-v-3179ee86]:focus, .link--color-bare[data-v-3179ee86]:hover {
+
+        color: var(--highlight-color);
+    
+    }
+    
+    .icon-button--variant-bare[data-v-07682736]:hover {
+    
+        color: var(--highlight-color);
+    
+    }
+    
+    .icon-button--variant-bare[data-v-07682736] {
+    
+        color: var(--third-text-color);
+    
+    }
+    
+    .main-header__navigation[data-v-c127acf0] {
+    
+        background-color: var(--second-background);
+    
+    }
+    
+    .main-header__search-navigation[data-v-c127acf0] {
+    
+        background-color: var(--second-background);
+            
+    }
+    
+    .main-header--border .main-header__content[data-v-c127acf0] {
+    
+        border-bottom: 1px solid var(--second-background);
+        background-color: var(--second-background);
+    
+    }
+    
+    .search-form[data-v-7087acaf] {
+    
+        background-color: var(--foreground);
+        border: 1px solid var(--foreground);
+    
+    }
+    
+    .search-form--variant-compact .search-form__input[data-v-7087acaf] {
+    
+        background-color: var(--foreground);
+        
+    }
+    
+    .search-form__input[data-v-7087acaf] {
+    
+        color: var(--first-text-color);
+    
+    }
+    
+    .main-footer[data-v-33a9cd1c] {
+    
+        background-color: var(--background);
+    
+    }
+    
+    .main-footer__link[data-v-33a9cd1c] {
+    
+        color: var(--third-text-color);
+    
+    }
+    
+    
+    .main-footer__link[data-v-33a9cd1c]:focus, .main-footer__link[data-v-33a9cd1c]:hover {
+    
+        color: var(--third-text-color);
+    
+    }
+    
+    
+    
+    /*News search*/
+    
+    .link--color-result[data-v-e2270c2c] {
+    
+        color: var(--first-text-color);
+    
+    }
+
+    .link--color-result[data-v-3179ee86] {
+
+        color: var(--first-text-color);
+    
+    }
+    
+    .result__source[data-v-6563085a] {
+    
+        color: var(--third-text-color);
+    
+    }
+
+    .result__source[data-v-ff6de9d6] {
+
+        color: var(--third-text-color);
+    
+    }
+    
+    .news-result__date[data-v-c1edfd48] {
+    
+        color: var(--third-text-color);
+    
+    }
+    
+    .news-result__description[data-v-c1edfd48] {
+    
+        color: var(--second-text-color);
+    
+    }
+
+
+    
+    
+    
+    
+    /*Video search*/
+    
+    .video-result__date[data-v-6ae924aa] {
+    
+        color: var(--third-text-color);
+    
+    }
+    
+    .video-result__description[data-v-6ae924aa] {
+    
+        color: var(--second-text-color);
+    
+    }
+    
+    .result-thumbnail__duration[data-v-067349f4] {
+    
+        background-color: var(--foreground);
+        color: var(--first-text-color);
+    
+    }
+    
+    .result-thumbnail:hover .result-thumbnail__duration[data-v-067349f4] {
+    
+        background-color: var(--second-background);
+        color: var(--first-text-color);
+    
+    }
+    }
