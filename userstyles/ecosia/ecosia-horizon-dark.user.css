@@ -2,7 +2,7 @@
 @name         Ecosia Horizon Dark
 @namespace    github.com/FireInsight/horizon-theme
 @description    github.com/FireInsight/horizon-theme
-@version      1.0.1
+@version      1.0.2
 @license      MIT
 ==/UserStyle== */
 
@@ -52,6 +52,12 @@
         color: var(--first-text-color);
     
     }
+
+    .result-title:visited {
+
+        color: var(--third-text-color);
+    
+    }
     
     .result-url, .result-url:active, .result-url:focus, .result-url:hover, .result-url:visited {
     
@@ -82,6 +88,12 @@
         color: var(--highlight-color);
     
     }
+
+    .navbar-item.navbar-item-active.navbar-item-vertical .navbar-link::after {
+
+        background-color: var(--highlight-color);
+
+    }
     
     .navbar-link:hover {
     
@@ -93,6 +105,12 @@
         
         color: var(--third-text-color);
         
+    }
+
+    .navbar-item-divider::before {
+
+        border-left: solid 1px var(--third-text-color);
+    
     }
     
     .thumbnail-title {
@@ -177,13 +195,13 @@
     
     .pagination-button.active {
     
-        color: var(--second-background);
+        color: var(--highlight-color);
     
     }
     
     .pagination-button:hover {
     
-        color: var(--second-background);
+        color: var(--highlight-color);
     
     }
     
@@ -228,7 +246,7 @@
     .card-mobile {
     
         padding: 10px;
-        background-color: var(--second-background);
+        background-color: var(--background);
         border-radius: 3px;
     
     }
@@ -248,13 +266,13 @@
     
     .chip__text[data-v-b7cee7f4] {
     
-        color: var(--first-text-color);
+        color: var(--third-text-color);
     
     }
     
     .chip__text mark {
     
-        color: var(--second-background);
+        color: var(--first-text-color);
     
     }
     
@@ -334,11 +352,29 @@
         color: var(--highlight-color);
     
     }
+
+    .tab__link[data-v-34d2a1dd]:hover {
+
+        color: var(--highlight-color);
+    
+    }
+
+    .tab--highlighted.tab--highlight-bar[data-v-34d2a1dd]::after {
+
+        background-color: var(--highlight-color);
+    
+    }
     
     .image-result__details-source[data-v-737b338e] {
     
         color: var(--third-text-color);
     
+    }
+
+    .image-result__details-title[data-v-737b338e] {
+
+        color: var(--first-text-color)
+
     }
     
     .search-form__input[data-v-30d57e72] {
@@ -437,7 +473,7 @@
     .pagination__page--current[data-v-50fddf66] {
     
       
-        color: var(--second-background);
+        color: var(--highlight-color);
     
     }
     
@@ -449,13 +485,19 @@
     
     .link--color-bare[data-v-e2270c2c]:hover {
     
-        color: var(--second-text-color);
+        color: var(--highlight-color);
+    
+    }
+
+    .link--color-bare[data-v-3179ee86]:focus, .link--color-bare[data-v-3179ee86]:hover {
+
+        color: var(--highlight-color);
     
     }
     
     .icon-button--variant-bare[data-v-07682736]:hover {
     
-        color: var(--foreground);
+        color: var(--highlight-color);
     
     }
     
@@ -531,11 +573,22 @@
         color: var(--first-text-color);
     
     }
+
+    .link--color-result[data-v-3179ee86] {
+
+        color: var(--first-text-color);
+    
+    }
     
     .result__source[data-v-6563085a] {
     
         color: var(--third-text-color);
-        display: block;
+    
+    }
+
+    .result__source[data-v-ff6de9d6] {
+
+        color: var(--third-text-color);
     
     }
     
@@ -550,6 +603,8 @@
         color: var(--second-text-color);
     
     }
+
+
     
     
     
