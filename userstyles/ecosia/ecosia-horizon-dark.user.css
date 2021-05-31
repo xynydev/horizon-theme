@@ -636,4 +636,130 @@
         color: var(--first-text-color);
     
     }
+    
+   
+    /*Main page*/    
+    .search-form--variant-default .search-form__input[data-v-7087acaf] {
+
+        background-color: var(--foreground);
+
     }
+    
+    .search-form--variant-default .search-form__input[data-v-7087acaf] {
+
+        color: var(--first-text-color);
+
+    }
+    
+    .tree-counter__digit[data-v-500967ec] {
+
+        color: var(--highlight-color);
+
+    }
+    
+    .scroll-down[data-v-e86b7a68] {
+
+        background-color: var(--foreground);
+        
+
+    }
+    
+    .scroll-down:hover[data-v-e86b7a68] {
+
+        background-color: var(--foreground);
+
+    }
+    
+    .icon-button__icon[data-v-07682736] {
+
+        color: var(--highlight-color);
+
+    }
+    
+    .hero[data-v-258ffcd8] {
+
+        background-color: var(--background);
+
+    }
+    
+    .search-section__content[data-v-2475ea74] {
+
+        background: linear-gradient(var(--background);,var(--background);) bottom no-repeat;
+
+    }
+    
+    .info-section[data-v-0e50e79d] {
+
+        background-color: var(--second-background)
+
+    }
+    
+    .map-section[data-v-a52809ae] {
+
+        background-color: var(--second-background)
+        
+    }
+    
+    .claims-section[data-v-d0680020] {
+        
+        background-color: var(--background);
+        
+    }
+    
+    .info-section__title[data-v-0e50e79d] {
+
+        color: var(--first-text-color);
+        
+    }
+    
+    .info-section__text[data-v-0e50e79d] {
+        
+        color: var(--first-text-color);
+            
+    }
+    
+    
+    .map-section__title[data-v-a52809ae] {
+
+        color: var(--first-text-color);
+
+    }
+    
+    .map-section__text[data-v-a52809ae] {
+
+        color: var(--first-text-color);
+
+    }
+    
+    .claims-section__title[data-v-d0680020] {
+
+        color: var(--first-text-color);
+
+    }
+    
+    .claims__title[data-v-6b4509c7] {
+
+        color: var(--first-text-color);
+
+    }
+    
+    .claims__text[data-v-6b4509c7] {
+
+        color: var(--first-text-color);
+
+    }
+    
+    .button--variant-solid-primary[data-v-3becbe52] {
+
+        background-color: var(--foreground);
+        border-color: var(--foreground);   
+
+    }
+    
+    .button--variant-solid-primary[data-v-3becbe52]:active, .button--variant-solid-primary[data-v-3becbe52]:focus, .button--variant-solid-primary[data-v-3becbe52]:hover {
+        
+        background-color: var(--highlight-color);
+        border-color: var(--highlight-color);   
+        
+    }
+}
